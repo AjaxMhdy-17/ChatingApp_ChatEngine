@@ -1,0 +1,23 @@
+.sign__in button{
+    text-transform: uppercase;
+    color: #fff ;
+    outline : none ;
+    border : none ;
+    padding : 4px 29px ;
+    border-radius: 3px ;
+    margin-top: 10px;
+}
+
+.icon span{
+    margin-right: 10px ;
+    vertical-align: middle;
+    font-size: 18px ;
+    margin-top: 10px;
+}
+.google__icon{
+    background-color: crimson;
+}
+.face__icon{
+    background-color: dodgerblue;
+    color : #fff ;
+}

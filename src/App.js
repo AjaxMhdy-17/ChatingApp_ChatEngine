@@ -3,16 +3,15 @@ import React from 'react'
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Index from './phoneEcmrs/Index'
 
-import { MainContextProvider } from './phoneEcmrs/context/Context';
+// import Index from './CartExample/Index'
+import Index from './ChatApp/Index'
+
 
 function App() {
   return (
-    <div className="App">
-      <MainContextProvider>
-        <Index/>
-      </MainContextProvider>
+    <div>
+      <Index/>
     </div>
   );
 }
